@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: eSign
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eSign_test
+    username: vishwap
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      max-lifetime: 1200000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 1
+
+logging:
+  level:
+    root: INFO
+    com.example.eSign: INFO
+    com.example.eSign.controller: DEBUG
+    com.example.eSign.service: DEBUG
+    com.example.eSign.interceptor: DEBUG
+  file:
+    name: logs/esign.log
+
+app:
+  logging:
+    enabled: true
+  keystore:
+    file: file:${ESIGN_KEYSTORE_FILE}
+    password: ${ESIGN_KEYSTORE_PASSWORD}
+    alias: ${ESIGN_KEYSTORE_ALIAS}
+    key-password: ${ESIGN_KEYSTORE_KEY_PASSWORD:${ESIGN_KEYSTORE_PASSWORD}}
+

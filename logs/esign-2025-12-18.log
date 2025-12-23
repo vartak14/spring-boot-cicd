@@ -1,0 +1,36 @@
+2025-12-18 11:16:37 [restartedMain] INFO  com.example.eSign.ESignApplication - Starting ESignApplication using Java 21.0.9 with PID 161504 (/home/vishwap/eSign/eSign/eSign_backend/target/classes started by vishwap in /home/vishwap/eSign/eSign/eSign_backend)
+2025-12-18 11:16:37 [restartedMain] INFO  com.example.eSign.ESignApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-18 11:16:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-18 11:16:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-18 11:16:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-12-18 11:16:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@78455aaa
+2025-12-18 11:16:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-12-18 11:16:37 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-18 11:16:37 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-18 11:16:37 [restartedMain] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d338c8a9-f15e-4bb1-bf2f-ab64ec755211
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-18 11:16:38 [restartedMain] INFO  com.example.eSign.ESignApplication - Started ESignApplication in 0.78 seconds (process running for 168.058)
+2025-12-18 11:16:54 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-12-18 11:16:54 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-12-18 11:16:54 [restartedMain] INFO  com.example.eSign.ESignApplication - Starting ESignApplication using Java 21.0.9 with PID 161504 (/home/vishwap/eSign/eSign/eSign_backend/target/classes started by vishwap in /home/vishwap/eSign/eSign/eSign_backend)
+2025-12-18 11:16:54 [restartedMain] INFO  com.example.eSign.ESignApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-18 11:16:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-18 11:16:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-18 11:16:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-12-18 11:16:54 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@2d925037
+2025-12-18 11:16:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-12-18 11:16:54 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-18 11:16:54 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-18 11:16:54 [restartedMain] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 72b5aafe-289c-4782-a0ca-81cb509583a2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-18 11:16:54 [restartedMain] INFO  com.example.eSign.ESignApplication - Started ESignApplication in 0.428 seconds (process running for 184.948)
+2025-12-18 11:19:38 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-12-18 11:19:38 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.

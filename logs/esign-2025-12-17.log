@@ -1,0 +1,16 @@
+2025-12-17 15:04:37 [main] INFO  c.e.eSign.ESignApplicationTests - Starting ESignApplicationTests using Java 21.0.9 with PID 75702 (started by vishwap in /home/vishwap/eSign_dec_15/eSign/eSign_backend)
+2025-12-17 15:04:37 [main] INFO  c.e.eSign.ESignApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 15:04:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-17 15:04:39 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7612f385
+2025-12-17 15:04:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-17 15:04:39 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-17 15:04:39 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-17 15:04:39 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c6747a84-9aba-44be-8448-92f05c7c0e8d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-17 15:04:40 [main] INFO  c.e.eSign.ESignApplicationTests - Started ESignApplicationTests in 2.732 seconds (process running for 3.538)
+2025-12-17 15:04:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-17 15:04:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
